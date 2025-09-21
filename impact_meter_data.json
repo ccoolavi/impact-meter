@@ -1,0 +1,173 @@
+{
+  "cement_impact": [
+    {
+      "Year": 2020,
+      "Global_Cement_Production_MT": 4100,
+      "CO2_Emissions_MT": 3280,
+      "Life_Years_Lost_Millions": 7.4
+    },
+    {
+      "Year": 2021,
+      "Global_Cement_Production_MT": 4200,
+      "CO2_Emissions_MT": 3360,
+      "Life_Years_Lost_Millions": 7.6
+    },
+    {
+      "Year": 2022,
+      "Global_Cement_Production_MT": 4150,
+      "CO2_Emissions_MT": 3320,
+      "Life_Years_Lost_Millions": 7.5
+    },
+    {
+      "Year": 2023,
+      "Global_Cement_Production_MT": 4000,
+      "CO2_Emissions_MT": 3200,
+      "Life_Years_Lost_Millions": 7.2
+    },
+    {
+      "Year": 2024,
+      "Global_Cement_Production_MT": 4000,
+      "CO2_Emissions_MT": 3200,
+      "Life_Years_Lost_Millions": 7.2
+    }
+  ],
+  "health_by_region": [
+    {
+      "Region": "Asia-Pacific",
+      "Population_Millions": 4641,
+      "Average_Life_Expectancy_Loss_Years": 2.1,
+      "Cement_Consumption_Per_Capita_Kg": 620
+    },
+    {
+      "Region": "Europe",
+      "Population_Millions": 747,
+      "Average_Life_Expectancy_Loss_Years": 0.8,
+      "Cement_Consumption_Per_Capita_Kg": 280
+    },
+    {
+      "Region": "North America",
+      "Population_Millions": 579,
+      "Average_Life_Expectancy_Loss_Years": 0.6,
+      "Cement_Consumption_Per_Capita_Kg": 220
+    },
+    {
+      "Region": "Latin America",
+      "Population_Millions": 653,
+      "Average_Life_Expectancy_Loss_Years": 1.2,
+      "Cement_Consumption_Per_Capita_Kg": 190
+    },
+    {
+      "Region": "Africa",
+      "Population_Millions": 1340,
+      "Average_Life_Expectancy_Loss_Years": 1.8,
+      "Cement_Consumption_Per_Capita_Kg": 110
+    },
+    {
+      "Region": "Middle East",
+      "Population_Millions": 411,
+      "Average_Life_Expectancy_Loss_Years": 1.5,
+      "Cement_Consumption_Per_Capita_Kg": 380
+    }
+  ],
+  "alternatives_comparison": [
+    {
+      "Material": "Traditional Concrete",
+      "CO2_Emissions_Per_Ton": 410,
+      "Cost_Relative_to_Traditional": 1.0,
+      "Strength_Relative_to_Traditional": 1.0,
+      "Availability_Score": 10
+    },
+    {
+      "Material": "Green Concrete (30% fly ash)",
+      "CO2_Emissions_Per_Ton": 290,
+      "Cost_Relative_to_Traditional": 0.85,
+      "Strength_Relative_to_Traditional": 0.95,
+      "Availability_Score": 8
+    },
+    {
+      "Material": "Hempcrete",
+      "CO2_Emissions_Per_Ton": -110,
+      "Cost_Relative_to_Traditional": 1.8,
+      "Strength_Relative_to_Traditional": 0.3,
+      "Availability_Score": 4
+    },
+    {
+      "Material": "Geopolymer Concrete",
+      "CO2_Emissions_Per_Ton": 80,
+      "Cost_Relative_to_Traditional": 1.2,
+      "Strength_Relative_to_Traditional": 1.1,
+      "Availability_Score": 6
+    },
+    {
+      "Material": "Recycled Aggregate Concrete",
+      "CO2_Emissions_Per_Ton": 320,
+      "Cost_Relative_to_Traditional": 0.95,
+      "Strength_Relative_to_Traditional": 0.9,
+      "Availability_Score": 7
+    },
+    {
+      "Material": "Carbon-Capture Concrete",
+      "CO2_Emissions_Per_Ton": -150,
+      "Cost_Relative_to_Traditional": 2.1,
+      "Strength_Relative_to_Traditional": 1.05,
+      "Availability_Score": 2
+    }
+  ],
+  "market_growth": [
+    {
+      "Year": 2020,
+      "Market_Size_Billion_USD": 165,
+      "Growth_Rate_Percent": 12.1
+    },
+    {
+      "Year": 2021,
+      "Market_Size_Billion_USD": 185,
+      "Growth_Rate_Percent": 13.5
+    },
+    {
+      "Year": 2022,
+      "Market_Size_Billion_USD": 210,
+      "Growth_Rate_Percent": 14.3
+    },
+    {
+      "Year": 2023,
+      "Market_Size_Billion_USD": 240,
+      "Growth_Rate_Percent": 19.2
+    },
+    {
+      "Year": 2024,
+      "Market_Size_Billion_USD": 286,
+      "Growth_Rate_Percent": 15.4
+    },
+    {
+      "Year": 2025,
+      "Market_Size_Billion_USD": 330,
+      "Growth_Rate_Percent": 15.2
+    },
+    {
+      "Year": 2026,
+      "Market_Size_Billion_USD": 380,
+      "Growth_Rate_Percent": 15.8
+    },
+    {
+      "Year": 2027,
+      "Market_Size_Billion_USD": 440,
+      "Growth_Rate_Percent": 15.9
+    },
+    {
+      "Year": 2028,
+      "Market_Size_Billion_USD": 510,
+      "Growth_Rate_Percent": 15.7
+    },
+    {
+      "Year": 2029,
+      "Market_Size_Billion_USD": 590,
+      "Growth_Rate_Percent": 15.3
+    },
+    {
+      "Year": 2030,
+      "Market_Size_Billion_USD": 680,
+      "Growth_Rate_Percent": 15.2
+    }
+  ]
+}

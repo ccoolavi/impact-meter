@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Based Impact Meter - Starting Small is a Big Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <h3>Impact Meter</h3>
+                </div>
+                <div class="nav-links">
+                    <a href="#problem" class="nav-link">The Crisis</a>
+                    <a href="#research" class="nav-link">Research</a>
+                    <a href="#solutions" class="nav-link">Solutions</a>
+                    <a href="#tool" class="nav-link">Our Tool</a>
+                    <a href="https://gemini.google.com/gem/1IhkgOPcoUoF-oNNukOO7cghVjIkKh1ek?usp=sharing" class="btn btn--primary btn--sm" target="_blank">Try Calculator</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Starting Small is a Big Solution</h1>
+                <p class="hero-subtitle">Transform construction's hidden impact on human life with AI-powered transparency</p>
+                <div class="hero-stat">
+                    <span class="stat-number">4 billion tons</span>
+                    <span class="stat-text">of concrete. 7+ million years of life lost annually.</span>
+                </div>
+                <div class="hero-actions">
+                    <a href="https://gemini.google.com/gem/1IhkgOPcoUoF-oNNukOO7cghVjIkKh1ek?usp=sharing" class="btn btn--primary btn--lg" target="_blank">Measure Your Impact Now</a>
+                    <a href="#problem" class="btn btn--outline btn--lg">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="emission-animation"></div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Silent Crisis in Every Building</h2>
+                <p>Every new building carries an invisible burden - shortened lives, compromised futures</p>
+            </div>
+            
+            <div class="problem-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">🏭</div>
+                    <div class="stat-value" data-target="8">0</div>
+                    <div class="stat-label">% of global CO2 emissions from cement alone</div>
+                    <div class="stat-source">Global Cement Association</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏰</div>
+                    <div class="stat-value" data-target="1.8">0</div>
+                    <div class="stat-label">years of life expectancy lost globally due to air pollution</div>
+                    <div class="stat-source">University of Chicago EPIC</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">👶</div>
+                    <div class="stat-value" data-target="4">0</div>
+                    <div class="stat-label">billion children breathing unsafe air worldwide</div>
+                    <div class="stat-source">WHO</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💔</div>
+                    <div class="stat-value" data-target="570000">0</div>
+                    <div class="stat-label">child deaths annually from respiratory infections</div>
+                    <div class="stat-source">WHO Environmental Health</div>
+                </div>
+            </div>
+
+            <div class="problem-visuals">
+                <div class="visual-content">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1756711073/pplx_project_search_images/95118f49b19f2a555b188176469b4e452d3b40d8.png" 
+                         alt="Children vulnerability to air pollution" class="problem-image">
+                    <div class="visual-text">
+                        <h3>Children Bear the Heaviest Burden</h3>
+                        <p>Children and adolescents are disproportionately affected by air pollution from cement production. Their developing lungs, faster breathing rates, and increased outdoor activity make them 2-3 times more vulnerable than adults.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Data Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Science Behind the Impact</h2>
+                <p>Comprehensive research reveals the true cost of conventional construction</p>
+            </div>
+
+            <div class="research-content">
+                <div class="research-chart">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1757341798/pplx_project_search_images/874a8b9e9cd83192e43a159d86eaa65d3939615f.png" 
+                         alt="Global cement production and CO2 emissions" class="chart-image">
+                    <div class="chart-caption">
+                        <h4>Global Cement Production & CO2 Emissions (2010-2017)</h4>
+                        <p>China dominates global cement production, contributing significantly to worldwide CO2 emissions from the industry.</p>
+                    </div>
+                </div>
+
+                <div class="research-findings">
+                    <div class="finding-card">
+                        <h4>Cement Production Impact</h4>
+                        <p>Global cement industry produces 2.3 Gt CO2 annually - 60% from calcination process, 40% from energy use</p>
+                        <span class="source">Source: Global Efficiency Intelligence</span>
+                    </div>
+                    <div class="finding-card">
+                        <h4>Health Effects</h4>
+                        <p>Particulate matter from cement plants increases respiratory diseases, with children most vulnerable</p>
+                        <span class="source">Source: Multiple health studies</span>
+                    </div>
+                    <div class="finding-card">
+                        <h4>Regional Variations</h4>
+                        <p>Asia-Pacific faces 2.1 years life expectancy loss vs 0.6 years in North America</p>
+                        <span class="source">Source: Air Quality Life Index</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trend-chart">
+                <h3>Impact Trends Over Time</h3>
+                <div class="chart-container" style="position: relative; height: 400px;">
+                    <canvas id="impactChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Showcase -->
+    <section id="solutions" class="solutions-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Innovation Meets Responsibility</h2>
+                <p>Sustainable alternatives are not just possible—they're profitable and practical</p>
+            </div>
+
+            <div class="solutions-content">
+                <div class="sustainable-materials">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1754813580/pplx_project_search_images/ddbfd5af056b0d5325faaebed70adb4ac38949e7.png" 
+                         alt="Sustainable construction materials" class="materials-showcase">
+                </div>
+
+                <div class="alternatives-grid">
+                    <div class="alternative-card">
+                        <div class="card-icon">🌱</div>
+                        <h4>Hempcrete</h4>
+                        <div class="benefit">Carbon negative: absorbs 110kg CO2 per ton</div>
+                        <p>Lightweight, naturally insulating bio-composite</p>
+                    </div>
+                    <div class="alternative-card">
+                        <div class="card-icon">⚡</div>
+                        <h4>Geopolymer Concrete</h4>
+                        <div class="benefit">80% less CO2 emissions than traditional concrete</div>
+                        <p>Made from industrial byproducts like fly ash</p>
+                    </div>
+                    <div class="alternative-card">
+                        <div class="card-icon">🔄</div>
+                        <h4>Carbon-Capture Concrete</h4>
+                        <div class="benefit">Stores 150kg CO2 per ton during curing</div>
+                        <p>Revolutionary technology turning concrete into carbon sink</p>
+                    </div>
+                </div>
+
+                <div class="comparison-chart">
+                    <h3>Environmental Impact Comparison</h3>
+                    <div class="chart-container" style="position: relative; height: 350px;">
+                        <canvas id="materialsChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="market-growth">
+                    <h3>Market Opportunity</h3>
+                    <div class="growth-stats">
+                        <div class="growth-item">
+                            <span class="growth-value">$286B</span>
+                            <span class="growth-label">Current market size</span>
+                        </div>
+                        <div class="growth-arrow">→</div>
+                        <div class="growth-item">
+                            <span class="growth-value">$680B</span>
+                            <span class="growth-label">Projected 2030</span>
+                        </div>
+                        <div class="growth-rate">15.2% CAGR</div>
+                    </div>
+                    <p>Sustainable construction materials market experiencing explosive growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Impact Meter Section -->
+    <section id="tool" class="tool-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Project, Quantified</h2>
+                <p>Transform invisible impacts into actionable insights with AI-powered precision</p>
+            </div>
+
+            <div class="tool-content">
+                <div class="tool-preview">
+                    <div class="mockup-container">
+                        <div class="mockup-header">
+                            <div class="mockup-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <span class="mockup-title">Impact Calculator</span>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="calculator-preview">
+                                <h4>Project Impact Assessment</h4>
+                                <div class="preview-input">
+                                    <label>Project Type:</label>
+                                    <span>Residential Building</span>
+                                </div>
+                                <div class="preview-input">
+                                    <label>Concrete Volume:</label>
+                                    <span>500 cubic meters</span>
+                                </div>
+                                <div class="preview-result">
+                                    <h5>Estimated Impact:</h5>
+                                    <div class="impact-metric">
+                                        <span class="metric-value">847</span>
+                                        <span class="metric-unit">days of life lost</span>
+                                    </div>
+                                    <div class="impact-metric">
+                                        <span class="metric-value">205</span>
+                                        <span class="metric-unit">tons CO2 equivalent</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-benefits">
+                    <h3>Powerful Features</h3>
+                    <ul class="benefits-list">
+                        <li>
+                            <span class="benefit-icon">📊</span>
+                            <span>Quantify life expectancy impact in real, understandable terms</span>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">📋</span>
+                            <span>Generate regulatory compliance reports automatically</span>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">💡</span>
+                            <span>Create emotionally compelling public impact assessments</span>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">🎯</span>
+                            <span>Enable data-driven material substitution decisions</span>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">🔗</span>
+                            <span>Integrate with approval workflows and RERA systems</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tool-cta">
+                <a href="https://gemini.google.com/gem/1IhkgOPcoUoF-oNNukOO7cghVjIkKh1ek?usp=sharing" class="btn btn--primary btn--lg" target="_blank">Try Our Impact Calculator</a>
+                <p class="cta-note">Free assessment for your next project</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Calculator (Placeholder) -->
+    <section id="impact-calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Calculate Your Project's Impact</h2>
+                <p>Get instant insights into the human cost of your construction choices</p>
+            </div>
+            
+            <div class="calculator-placeholder">
+                <div class="placeholder-content">
+                    <div class="placeholder-icon">🤖</div>
+                    <h3>AI-Powered Impact Calculator</h3>
+                    <p>Our intelligent chatbot will guide you through a comprehensive assessment of your project's environmental and health impact.</p>
+                    <div class="features-preview">
+                        <div class="feature-item">✓ Life expectancy impact calculation</div>
+                        <div class="feature-item">✓ CO2 emissions assessment</div>
+                        <div class="feature-item">✓ Alternative materials recommendations</div>
+                        <div class="feature-item">✓ Regulatory compliance reports</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Every Choice Counts. Every Life Matters.</h2>
+                <p>Join the movement to make construction's hidden impact visible and actionable</p>
+                
+                <div class="cta-grid">
+                    <div class="cta-card">
+                        <h4>For Contractors</h4>
+                        <p>Differentiate your projects with transparent impact reporting</p>
+                        <a href="https://gemini.google.com/gem/1IhkgOPcoUoF-oNNukOO7cghVjIkKh1ek?usp=sharing" class="btn btn--primary" target="_blank">Calculate Impact</a>
+                    </div>
+                    <div class="cta-card">
+                        <h4>For Authorities</h4>
+                        <p>Implement evidence-based policies with our regulatory tools</p>
+                        <a href="mailto:ccoolavi@mail.com?subject=Partner%20With%20Us&body=I%20want%20to%20partner%20with%20you" class="btn btn--outline">Partner With Us</a>
+                    </div>
+                    <div class="cta-card">
+                        <h4>For Citizens</h4>
+                        <p>Demand transparency in your community's construction projects</p>
+                        <a href="mailto:ccoolavi@mail.com?subject=Learn%20Your%20Impact&body=I%20want%20to%20learn%20my%20impact" class="btn btn--secondary">Learn Your Impact</a>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <p>Ready to transform your construction impact?</p>
+                    <a href="mailto:ccoolavi@mail.com" class="contact-link">ccoolavi@mail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>Impact Meter</h4>
+                    <p>Making construction's hidden impact visible</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#problem">The Crisis</a>
+                    <a href="#research">Research</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#tool">Our Tool</a>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: ccoolavi@mail.com</p>
+                    <p>© 2025 AI-Based Impact Meter</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
